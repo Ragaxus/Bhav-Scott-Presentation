@@ -36,7 +36,18 @@ theme: uncover
 # <span class="number">1.</span> A Hebrew lesson
 ### a. Common words and phrases
 
+<section>
+<span class="hebrew">תודה. בבקשה.</span>
 
+*(Todah. B'vahkeshah.)*
+
+Thank you. You're welcome.
+</section>
+
+---
+
+# <span class="number">1.</span> A Hebrew lesson
+### a. Common words and phrases
 
 <section>
 <span class="hebrew">.יריתי בציפור שלך כי היית איום</span>
@@ -56,6 +67,15 @@ I bolted your bird because you are the threat.
 *(lachul zhuhit)*
 
 Eat glass.
+
+---
+
+# <span class="number">1.</span> A Hebrew lesson
+### b. Shoreshim
+
+* "Shoresh" means "root", "-im" is pluralization
+   * So, "roots"
+* Means by which words are constructed in Hebrew and other Semitic languages
 
 ---
 <style>
@@ -160,20 +180,75 @@ other than let elephants eat it:
 ---
 # 6. Toilets
 
+<!-- footer: "thearchaeologist.org, \"Sanitation of the Indus Valley Civilisation\" "-->
+
+<style>
+	.caption {
+		font-style: italic;
+		font-size: 18px;
+	}
+	.grass {
+		gap: 55px;
+	}
+	.smaller-text li {
+		font-size: 25px;
+	}
+</style>
+
+<section class="grass">
+
+<section class="smaller-text">
+
 * Originally designed in the Indus River valley civilizations
-* Started using porcelain in xxx
+* <i>"Several courtyard houses had both a washing platform and a dedicated toilet/waste disposal hole. The toilet holes would be flushed by emptying a jar of water, drawn from the house's central well, through a clay brick pipe, and into a shared brick drain, that would feed into an adjacent soak pit (cesspit). The soak pits would be periodically emptied of their solid matter, possibly to be used as fertilizer."</i>
+
+</section>
+
+<section>
+
+![w:350](images/Great_bath_view_Mohenjodaro.webp)
+<span class="caption"> The Great Bath at Mohenjo-Daro </span>
+</section>
+
+</section>
+
+---
+
+<!-- footer: "sciencemuseum.org.uk, \"A flushing story\"" -->
+
+# 6. Toilets
+
+<section class=grass> 
+
+<div>
+
+* 1596: Sir John Harington, in his *The Metamorphosis of Ajax*, describes a flushing device
+* 1775: Alexander Cumming patents flushing toilet and provides the innovation of the S-pipe to seal odor away from the toilet bowl
+* 1883: Twyford started using porcelain
+</div>
+
+<div>
+
+![w:400](images/Model-of-the-Optimus-patent-water-closet-invented-by-Stevens-Hellyer-and-made-by-Dent-Hellyer-Limited-British-1870-1024x816.jpg)
+
+</div>
+
+</section>
+
 
 ---
 # 6. Toilets
 
 <section class="grass">
-	<div>
+	<div> 
 
-![w:500](images/space-toilet.jpg)
-	</div>
-	<div>
-	Now there are toilets that work in space by using a vacuum pump and airflow to direct waste into a water filtration system or a disposable bag
-	</div>
+![w:500](images/space-toilet.jpg) </div>
+
+<div>
+
+* Now there are toilets that work in space by using a vacuum pump and airflow to direct waste into a water filtration system or a disposable bag
+
+</div>
 </section>
 
 ---
@@ -204,6 +279,38 @@ other than let elephants eat it:
 </div>
 
 ---
+<!-- footer: "Wylie Beckert, <i>Creating a Targeted Illustration Sample</i>, MuddyColors.com" -->
+
+<style>
+	.comparison {
+		display: flex;
+		gap: 40px;
+	}
+</style>
+
+## 7. The art of Wylie Beckert
+
+<div class="comparison">
+
+<div class="quote">
+
+*"To get hired by a specific client, it isn’t enough that work be “good” – it also has to be suited to the needs of the client...let’s say I want to get hired by [Wizards of the Coast]. The first thing I need to do is compare the work I’m doing to the work this client is hiring. Actually placing one of my own paintings among a few MTG pieces is rather eye-opening..."*
+</div>
+
+<div>
+
+![h:300](images/wylie-mtg-comparison.jpeg)
+![h:200](images/wylie-mtg-comparison-table.jpeg)
+</div>
+
+
+
+</div>
+
+
+
+---
+<!-- footer: "" -->
 
 # <span class="number"> 8. </span> Zeugma
 
