@@ -1,0 +1,49 @@
+name: Deploy Marp Slides to S3
+
+on:
+  push:
+    branches:
+      - main # Change to your default branch if it's different (e.g., master)
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    # Permission needed to interact with AWS using OIDC (recommended)
+    # Remove or adjust if you are using traditional AWS Access Keys instead
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+      # 1. Checkout the repository code
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 2. Convert Markdown to HTML using Marp
+      - name: Marp Build
+        uses: marp-team/marp-cli-action@v1.3.0
+        with:
+          args: bhav-and-scott-presentation.md -o index.html --html
+        env:
+          MARP_USER: root:root
+
+      # 3. Configure AWS Credentials
+      # It is highly recommended to use OIDC (Role-to-Assume) instead of long-lived secrets.
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }} # e.g., arn:aws:iam::123456789012:role/GitHubActionsWorkflowRole
+          aws-region: ${{ secrets.AWS_REGION }}             # e.g., us-east-1
+          # Alternatively, if you must use traditional keys, uncomment the lines below and remove role-to-assume:
+          # aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          # aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+
+      # 4. Sync HTML and Images folder to S3
+      - name: Deploy to S3
+        run: |
+          # Sync the generated HTML file
+          aws s3 cp index.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/index.html
+          
+          # Sync the images folder (ignores unchanged files for speed)
+          aws s3 sync ./images s3://${{ secrets.AWS_S3_BUCKET_NAME }}/images
