@@ -42,7 +42,7 @@ jobs:
       - name: Deploy to S3
         run: |
           # Sync the generated HTML file
-          aws s3 cp index.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/index.html
+          aws s3 cp index.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/bhav-scott-birthday-2026/index.html
           
           # Sync the images folder (ignores unchanged files for speed)
-          aws s3 sync ./images s3://${{ secrets.AWS_S3_BUCKET_NAME }}/images
+          aws s3 sync ./images s3://${{ secrets.AWS_S3_BUCKET_NAME }}/bhav-scott-birthday-2026/images
