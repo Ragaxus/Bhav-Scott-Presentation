@@ -22,9 +22,7 @@ jobs:
 
       # 2. Convert Markdown to HTML using Marp
       - name: Marp Build
-        uses: marp-team/marp-cli-action@v1.3.0
-        with:
-          args: bhav-and-scott-presentation.md -o index.html --html
+        uses: KoharaKazuya/marp-cli-action@v4
         env:
           MARP_USER: root:root
 
