@@ -2,7 +2,7 @@
 marp: true
 theme: uncover 
 title: Bhav And Scott Birthday Presentation 2026
-transition: fade
+transition: cube 
 ---
 <style>
 section.fibonacci {
@@ -24,7 +24,7 @@ section.not-fibonacci {
 ## Now I'll tell you about them
 ---
 
-* Eight topics
+- Eight topics
 * One minute each
 * Let's go
 
@@ -32,6 +32,8 @@ section.not-fibonacci {
 <!-- class: fibonacci -->
 # <span class="number">1.</span> A Hebrew lesson
 ### a. Common words and phrases <a name="hebrew-phrases"> </a>
+
+<!-- transition: none -->
 
 ---
 
@@ -46,6 +48,8 @@ section.not-fibonacci {
 Thank you. You're welcome.
 </section>
 
+<!-- transition: none -->
+
 ---
 
 # <span class="number">1.</span> A Hebrew lesson
@@ -59,6 +63,8 @@ Thank you. You're welcome.
 I bolted your bird because you are the threat.
 </section>
 
+<!-- transition: none -->
+
 ---
 # <span class="number">1.</span> A Hebrew lesson
 ### a. Common words and phrases
@@ -70,6 +76,7 @@ I bolted your bird because you are the threat.
 
 Eat glass.
 
+<!-- transition: fade -->
 ---
 
 # <span class="number">1.</span> A Hebrew lesson
@@ -100,6 +107,7 @@ Eat glass.
 |<span class="shoresh1">מֶ</span><span class="shoresh2">ל</span><span class="shoresh3">ךְ</span>| _(melekh)_ | king
 |<span class="shoresh1">מַ</span><span class="shoresh2">לְ</span ><span class="shoresh3">כ</span>וּת | _(malkut)_ | kingdom
 
+<!-- transition: cube -->
 ---
 # <span class="number">2.</span> The history of celebrating birthdays <a name="birthdays"> </a>
 * Initially important for astrological reasons
@@ -107,14 +115,19 @@ Eat glass.
 * Ancient Greece: birthdays for men (and candles on cakes)
 * 14th century: every infant was given the name of a saint as a protector. People celebrated their saint’s day, not their own birthday. 
 
+<!-- transition: none -->
 ---
 # <span class="number">2.</span> The history of celebrating birthdays
-* The modern children's birthday party came from Germany (kinderfeste) in the early 19th century, an era when the individual person was seen as important and when childhood was “discovered” as a special stage of life.
+- The modern children's birthday party came from Germany (kinderfeste) in the early 19th century, an era when the individual person was seen as important and when childhood was “discovered” as a special stage of life.
+
+<!-- transition: cube-->
 
 ---
 # <span class="number">3.</span> The mixolydian scale <a name="mixolydian"> </a>
 
 ![w:500](images/mixolydian-scale.png)
+
+<!-- transition: none -->
 
 ---
 
@@ -132,6 +145,7 @@ It's just a minor scale except that the seventh note (the 7) is flat
 
 </video>
 
+<!-- transition: cube -->
 ---
 # 4. Elephant grass <a name="elephant-grass"> </a>
 <!-- class: not-fibonacci -->
@@ -165,6 +179,7 @@ Maize is responsible for one-third of all the calories consumed in sub-Saharan A
 	<div>
 	</div>
 </section>
+
 <!-- transition: none -->
 
 ---
@@ -217,6 +232,7 @@ Checkmate bugs-->
 </div>
 </section>
 
+<!-- transition: cube -->
 
 ---
 <!-- footer: "" -->
@@ -229,9 +245,13 @@ Each fibonacci number in the talk will be gold
 
 Golden rectangle but it's pictures of me and my family-->
 
+<!-- transition: fade -->
+
 ---
 <!-- class: fibonacci -->
 # <span class="number">5. </span> The golden ratio
+
+<!-- transition: none -->
 
 ---
 
@@ -345,6 +365,11 @@ That's only 0.05% different!
 
 </section>
 
+<!-- transition: cube -->
+---
+<!-- class: not-fibonacci -->
+# 6. Toilets <a name="toilets"> </a>
+<!-- transition: fade -->
 ---
 <!-- class: not-fibonacci -->
 # 6. Toilets <a name="toilets"> </a>
@@ -382,6 +407,8 @@ That's only 0.05% different!
 
 </section>
 
+<!-- transition: none -->
+
 ---
 
 <!-- footer: "sciencemuseum.org.uk, \"A flushing story\"" -->
@@ -408,6 +435,10 @@ That's only 0.05% different!
 
 ---
 # 6. Toilets
+<!-- footer: "" -->
+<style>
+	p.blurb { font-size: 32px; text-align: left}
+</style>
 
 <section class="two-cols">
 	<div> 
@@ -416,10 +447,19 @@ That's only 0.05% different!
 
 <div>
 
-* Now there are toilets that work in space by using a vacuum pump and airflow to direct waste into a water filtration system or a disposable bag
-
+<p class="blurb">
+	Now there are toilets that work in space by using a vacuum pump and airflow to direct waste into a water filtration system or a disposable bag
+	
+</p>
 </div>
 </section>
+
+<!-- transition: cube -->
+---
+
+# 7. The art of Wylie Beckert <a name="wylie-beckert"></a>
+
+<!-- transition: fade -->
 
 ---
 
@@ -447,6 +487,8 @@ That's only 0.05% different!
 
 *"The simultaneously grim and playful images she creates are distinguished by their intricate detail, unexpected compositions, and narrative sensibility, offering a window into a fantastical world that is both sinister and inviting."*
 </div>
+
+<!-- transition: none -->
 
 ---
 <!-- footer: "Wylie Beckert, <i>Creating a Targeted Illustration Sample</i>, MuddyColors.com" -->
@@ -477,7 +519,7 @@ That's only 0.05% different!
 
 </div>
 
-
+<!-- transition: cube -->
 
 ---
 <!-- footer: "" -->
@@ -530,8 +572,10 @@ That's only 0.05% different!
 </div>
 </div>
 
+<!-- transition: fade -->
+
 ---
-<!-- class: -->
+<!-- class: the-end -->
 <style>
 	td, th {
 		text-align: left;
