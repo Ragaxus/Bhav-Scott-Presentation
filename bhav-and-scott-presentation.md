@@ -1,25 +1,27 @@
 ---
 marp: true
-theme: uncover
+theme: uncover 
+title: Bhav And Scott Birthday Presentation 2026
+transition: fade
 ---
 <style>
-.number {
-	color: gold;
+section.fibonacci {
+	background-color: #F1DEDE;
+	color: #363032;
+	.number {
+		color: #EEBC18;
+	}
+}
+section.not-fibonacci {
+	background-color: #363032;
+	color: #507498;
 }
 .hebrew {
 	font-family: bold;
 }
 </style>
-
----
-
-* Eight topics
-
----
-
-* Eight topics
-* One minute each
-
+# I learned about a few things
+## Now I'll tell you about them
 ---
 
 * Eight topics
@@ -27,9 +29,9 @@ theme: uncover
 * Let's go
 
 ---
-
+<!-- class: fibonacci -->
 # <span class="number">1.</span> A Hebrew lesson
-### a. Common words and phrases
+### a. Common words and phrases <a name="hebrew-phrases"> </a>
 
 ---
 
@@ -71,7 +73,7 @@ Eat glass.
 ---
 
 # <span class="number">1.</span> A Hebrew lesson
-### b. Shoreshim
+### b. Shoreshim <a name="hebrew-shoreshim"> </a>
 
 * "Shoresh" means "root", "-im" is pluralization
    * So, "roots"
@@ -83,7 +85,7 @@ Eat glass.
 		color: red;
 	}
 	.shoresh2 {
-		color: gold;
+		color: green;
 	}
 	.shoresh3 {
 		color: blue;
@@ -99,7 +101,7 @@ Eat glass.
 |<span class="shoresh1">מַ</span><span class="shoresh2">לְ</span ><span class="shoresh3">כ</span>וּת | _(malkut)_ | kingdom
 
 ---
-# <span class="number">2.</span> The history of celebrating birthdays
+# <span class="number">2.</span> The history of celebrating birthdays <a name="birthdays"> </a>
 * Initially important for astrological reasons
 * Ancient Egypt: birthdays for royalty
 * Ancient Greece: birthdays for men (and candles on cakes)
@@ -110,7 +112,7 @@ Eat glass.
 * The modern children's birthday party came from Germany (kinderfeste) in the early 19th century, an era when the individual person was seen as important and when childhood was “discovered” as a special stage of life.
 
 ---
-# <span class="number">3.</span> The mixolydian scale
+# <span class="number">3.</span> The mixolydian scale <a name="mixolydian"> </a>
 
 ![w:500](images/mixolydian-scale.png)
 
@@ -120,24 +122,36 @@ Eat glass.
 
 ![w:500](images/mixolydian-scale.png)
 
-It's just a minor scale except that the second note (the 2) is flat
+It's just a minor scale except that the seventh note (the 7) is flat
 
 ---
-# 4. Elephant grass
+
+<video controls width=800 onclick="this.play()">
+
+<source src="./images/sonic-3-hookpad.mp4"  type="video/mp4" />
+
+</video>
+
+---
+# 4. Elephant grass <a name="elephant-grass"> </a>
+<!-- class: not-fibonacci -->
 <!-- footer: "Illus. Tony Roberts. Map from tropicalforages.info"-->
+<!-- Number four is elephant grass, a plant I learned about from the Magic: the Gathering card of the same name. It's native to sub-Saharan Africa, and it grows to a height of 4-7 meters, or 108 cheeseburgers on average. You can feed it to elephants, but you can also make paper with it, and you can also use it as part of a pest control method called push-pull. 
+
+Maize is responsible for one-third of all the calories consumed in sub-Saharan Africa. It is parasited upon by an insect called the stemborer, which eats about ten percent of African maize crop yields annually. African farmers noticed that this insect is repelled by a plant called -->
 <style>
-	.grass {
+	.two-cols {
 		display: flex;
 		flex-direction: row;
 	}
-	.grass div {
-		padding-right: 20px
+	.two-cols div {
+		padding-right: 10px
 	}
-	.grass li {
+	.two-cols li {
 		font-size: 32px;
 	}
 </style>
-<section class="grass">
+<section class="two-cols">
 	<div>
 		<img src="images/vis-104-elephant-grass.jpg" width="300" />
 		<img src="images/Pennisetum_purpureum_F.jpg" width="300"/>
@@ -146,39 +160,194 @@ It's just a minor scale except that the second note (the 2) is flat
 
 * Originates from sub-Saharan Africa 
 <!-- 108 cheeseburgers -->
-* Grows to an average height of 4-7 meters
+* Grows to a height of 4-7 meters
 	</div>
 	<div>
 	</div>
 </section>
+<!-- transition: none -->
+
+---
+# 4. Elephant grass
+<!-- footer: ""-->
+
+<style>
+	.elephants-eat {
+		font-size: 34px;
+	}
+</style>
+
+<section class="two-cols">
+<div>
+
+![w:300](images/VibersBiopolymers-Jan-Govert-van-Gilst-800x566.jpg)
+![w:300](images/elephant_grass_dried.jpg)
+
+</div>
+<div>
+
+<p class="elephants-eat"> Things you can do with it </p>
+<p class="elephants-eat"> other than let elephants eat it: </p>
+
+* Make paper 
+</div>
+</section>
+
+<!-- transition: none-->
 
 ---
 # 4. Elephant grass
 <!-- footer: "One third of all sub-Saharan calories thing: [here](https://www.tandfonline.com/doi/full/10.1080/87559129.2019.1588290). More about push-pull with elephant grass and Desmodium: [here](https://www.fhcanada.org/blog/how-does-push-pull-pest-management-work)." -->
-<section class="grass">
-<div>
-	<img src="images/elephant_grass_dried.jpg" width="300"/>
-	<img src="images/VibersBiopolymers-Jan-Govert-van-Gilst-800x566.jpg" width="300" />
-</div>
+<section class="two-cols">
 <div>
 
-Things you can do with it 
-other than let elephants eat it:
-* Make paper 
+<!-- You plant the desmodium in rows alternating with the corn; the insects get repelled by the smell and jump into the elephant grass you've planted around the perimeter; they lay their eggs in it, and they don't hatch because the grass is hairy so they fall off
+
+Checkmate bugs-->
+
+![w:300](images/desmodium.jpg)
+
+</div>
+<div>
+<p class="elephants-eat"> Things you can do with it </p>
+<p class="elephants-eat"> other than let elephants eat it: </p>
+
 * Important contributor to push-pull pest control (stops stemborers from eating maize)
    * Maize accounts for ~one third of all consumed calories in sub-Saharan Africa
 </div>
 </section>
 
+
 ---
 <!-- footer: "" -->
-# 5. Spirals
+<!-- class: not-fibonacci -->
+# 5. The golden ratio <a name="the-golden-ratio"></a>
+
+<!-- Audio clip here of my saying "Stav I think you forgot to color this one gold"
+
+Each fibonacci number in the talk will be gold
+
+Golden rectangle but it's pictures of me and my family-->
 
 ---
-# <span class="number">5. </span> Spirals
+<!-- class: fibonacci -->
+# <span class="number">5. </span> The golden ratio
 
 ---
-# 6. Toilets
+
+# <span class="number">5. </span> The golden ratio
+<section class="two-cols">
+<div>
+
+![w:300](images/Golden-ratio-line.svg.png)
+</div>
+<div>
+
+Defined as the ratio of *any* two lengths when the ratio a/b is equal to the ratio of the larger length with their sum, a+b/a 
+</div>
+</section>
+
+---
+
+<style>
+	.formula {
+		vertical-align: middle
+	}
+</style>
+
+# <span class="number">5. </span> The golden ratio
+<section class="two-cols">
+<div>
+
+![w:300](images/Golden-ratio-line.svg.png)
+
+</div>
+<p>
+
+<img width=300 src="images/Golden-ratio-value.svg" class="formula"> 
+1.618033988749...
+
+</p>
+
+</section>
+
+---
+
+<style>
+	.formula {
+		vertical-align: middle
+	}
+</style>
+
+# <span class="number">5. </span> The golden ratio
+<section class="two-cols">
+<div>
+
+![w:300](images/Golden-ratio-line.svg.png)
+
+</div>
+
+![w:600](images/golden-ratio-derivation.png)
+
+</section>
+
+
+---
+# <span class="number">5. </span> The golden ratio
+
+<div>
+
+![](images/magic-dots-allied-enemy.webp)
+</div>
+</section>
+
+---
+# <span class="number">5. </span> The golden ratio
+
+<div>
+
+Conversion ratio of miles to kilometers = 1.60934
+That's only 0.05% different! 
+
+</div>
+</section>
+
+
+---
+
+<style>
+	.distance {
+		font-size: 30px;
+	}
+	.number-more {
+		color: #E6D543;
+	}
+</style>
+
+
+# <span class="number">5. </span> The golden ratio
+
+<section class="two-cols">
+
+![w:600](images/Golden-ratio-bike-directions.webp)
+
+<div>
+
+<span class="distance">Distance to bike from Bird House to Hop Haus in Verona:</span>
+
+~7 miles 
+= <span class="number">5</span> miles + <span class="number">2</span> miles
+≈  <span class="number-more">8</span> km + <span class="number-more">3</span> km
+= 11 km.
+
+<span class="distance">(Real answer is 11.104km, error of 0.9%!)</span>
+</div>
+
+</section>
+
+---
+<!-- class: not-fibonacci -->
+# 6. Toilets <a name="toilets"> </a>
 
 <!-- footer: "thearchaeologist.org, \"Sanitation of the Indus Valley Civilisation\" "-->
 
@@ -187,7 +356,7 @@ other than let elephants eat it:
 		font-style: italic;
 		font-size: 18px;
 	}
-	.grass {
+	.two-cols {
 		gap: 55px;
 	}
 	.smaller-text li {
@@ -195,18 +364,19 @@ other than let elephants eat it:
 	}
 </style>
 
-<section class="grass">
+<section class="two-cols">
 
 <section class="smaller-text">
 
 * Originally designed in the Indus River valley civilizations
-* <i>"Several courtyard houses had both a washing platform and a dedicated toilet/waste disposal hole. The toilet holes would be flushed by emptying a jar of water, drawn from the house's central well, through a clay brick pipe, and into a shared brick drain, that would feed into an adjacent soak pit (cesspit). The soak pits would be periodically emptied of their solid matter, possibly to be used as fertilizer."</i>
+<br>
+* <i>"Several courtyard houses had both a washing platform and a dedicated toilet/waste disposal hole. The toilet holes would be flushed by emptying a jar of water, drawn from the house's central well, through a clay brick pipe, and into a shared brick drain, that would feed into an adjacent soak pit (cesspit)."</i>
 
 </section>
 
 <section>
 
-![w:350](images/Great_bath_view_Mohenjodaro.webp)
+![w:500](images/Great_bath_view_Mohenjodaro.webp)
 <span class="caption"> The Great Bath at Mohenjo-Daro </span>
 </section>
 
@@ -218,7 +388,7 @@ other than let elephants eat it:
 
 # 6. Toilets
 
-<section class=grass> 
+<section class="two-cols"> 
 
 <div>
 
@@ -239,7 +409,7 @@ other than let elephants eat it:
 ---
 # 6. Toilets
 
-<section class="grass">
+<section class="two-cols">
 	<div> 
 
 ![w:500](images/space-toilet.jpg) </div>
@@ -253,7 +423,7 @@ other than let elephants eat it:
 
 ---
 
-# 7. The art of Wylie Beckert
+# 7. The art of Wylie Beckert <a name="wylie-beckert"></a>
 
 <style>
 	.quote p {
@@ -311,8 +481,8 @@ other than let elephants eat it:
 
 ---
 <!-- footer: "" -->
-
-# <span class="number"> 8. </span> Zeugma
+<!-- class: fibonacci -->
+# <span class="number"> 8. </span> <a name="zeugma"> </a> Zeugma
 
 <style>
 	.container {
@@ -346,8 +516,8 @@ other than let elephants eat it:
 
 <div>
 
-> Loremipusm sit amet
-<p class="attribution"> Mark Twain </p>
+>  You are free to execute your laws, and your citizens, as you see fit.
+<p class="attribution"> Commander Riker</p>
 </div>
 
 <div>
@@ -359,3 +529,29 @@ other than let elephants eat it:
 
 </div>
 </div>
+
+---
+<!-- class: -->
+<style>
+	td, th {
+		text-align: left;
+	}
+	span.fib a,
+	span.fib-number {
+		color: gold;
+	}
+</style>
+
+| | |
+|----|----|
+<span class="fib-number"> 1a| [Hebrew: phrases](#hebrew-phrases)
+<span class="fib-number">1b| [Hebrew: שורשים *(shoreshim)*](#hebrew-shoreshim)
+<span class="fib-number">2| [History of birthdays](#birthdays)
+<span class="fib-number">3| [The mixolydian scale](#mixolydian)
+4| [Elephant grass](#elephant-grass)
+<span class="fib-number">5| <span class="fib">[The golden ratio](#the-golden-ratio)</span>
+6| [History of toilets](#toilets)
+7| [The art of Wylie Beckert](#wylie-beckert)
+<span class="fib-number">8| [Zeugma](#zeugma)
+
+<!-- Fib sequence has two 1s, so that's why there's 1a and 1b -->
