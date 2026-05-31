@@ -564,8 +564,8 @@ That's only 0.05% different!
 
 <div>
 
-> Loremipusm sit amet
-<p class="attribution"> Mark Twain </p>
+> Yet time and her aunt moved slowly — and her patience and her ideas were nearly worn our before the tete-a-tete was over.
+<p class="attribution"> Jane Austen </p>
 
 </div>
 
