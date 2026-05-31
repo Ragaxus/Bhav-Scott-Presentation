@@ -23,7 +23,7 @@ jobs:
 
       # 2. Convert Markdown to HTML using Marp
       - name: Marp Build (README.pdf)
-        uses: docker://marpteam/marp-cli:v1.7.0
+        uses: docker://marpteam/marp-cli:latest
         with:
             args: ./bhav-and-scott-presentation.md -o index.html --html
         env:
