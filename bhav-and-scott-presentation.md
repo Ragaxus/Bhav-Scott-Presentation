@@ -311,6 +311,11 @@ Defined as the ratio of *any* two lengths when the ratio a/b is equal to the rat
 
 </section>
 
+---
+# <span class="number">5. </span> The golden ratio
+
+<!-- ![h:500](images/golden-spiral.svg) -->
+
 
 ---
 # <span class="number">5. </span> The golden ratio

@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 618" width="80%" height="80%">
+
+<style>
+    /* 1. Set the initial states so they are ready but hidden */
+    .rect-base {
+        stroke-width: 1.5;
+        opacity: 0; 
+    }
+    .arc {
+        fill: none;
+        stroke: #FFD700;
+        stroke-width: 4;
+        stroke-linecap: round;
+        filter: drop-shadow(0px 0px 5px rgba(255, 215, 0, 0.6));
+        stroke-dasharray: 2500;
+        stroke-dashoffset: 2500;
+    }
+
+    /* 2. Target Marp's active section state to trigger the animation */
+    /* Marp uses standard markdown sections; when using Marp CLI/Bespoke, 
+       active slides get a surrounding state, or we can trigger via Marp's advance */
+    
+    .rect-base
+    { 
+        animation: fadeIn 0.6s ease-out forwards; 
+    }
+    
+    .arc
+    { 
+        animation: drawSpiral 4s ease-in-out forwards;
+        animation-delay: 2.2s; 
+    }
+    
+     .r1 { animation-delay: 0.0s; }
+     .r2 { animation-delay: 0.4s; }
+     .r3 { animation-delay: 0.8s; }
+     .r4 { animation-delay: 1.2s; }
+     .r5 { animation-delay: 1.6s; }
+     .r6 { animation-delay: 2.0s; }
+
+    @keyframes fadeIn { to { opacity: 0.8; } }
+    @keyframes drawSpiral { to { stroke-dashoffset: 0; } }
+</style>
+
+
+    <rect x="0" y="0" width="618" height="618" class="rect-base r1" stroke="#4a5568" fill="#1a202c" />
+    <rect x="618" y="0" width="382" height="382" class="rect-base r2" stroke="#718096" fill="#2d3748" />
+    <rect x="764" y="382" width="236" height="236" class="rect-base r3" stroke="#a0aec0" fill="#4a5568" />
+    <rect x="618" y="472" width="146" height="146" class="rect-base r4" stroke="#cbd5e0" fill="#718096" />
+    <rect x="618" y="382" width="90" height="90" class="rect-base r5" stroke="#e2e8f0" fill="#a0aec0" />
+    <rect x="708" y="382" width="56" height="90" class="rect-base r6" stroke="#edf2f7" fill="#cbd5e0" />
+
+    <path class="arc" d="
+        M 0,618 
+        A 618,618 0 0,1 618,0
+        A 382,382 0 0,1 1000,382
+        A 236,236 0 0,1 764,618
+        A 146,146 0 0,1 618,472
+        A 90,90 0 0,1 708,382
+        A 56,56 0 0,1 764,427
+        A 56,56 0 0,1 708,472
+    " />
+</svg>
