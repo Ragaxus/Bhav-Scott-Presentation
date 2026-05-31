@@ -22,10 +22,12 @@ jobs:
         uses: actions/checkout@v4
 
       # 2. Convert Markdown to HTML using Marp
-      - name: Marp Build
-        uses: KoharaKazuya/marp-cli-action@v4
+      - name: Marp Build (README.pdf)
+        uses: docker://marpteam/marp-cli:v1.7.0
+        with:
+            args: ./bhav-and-scott-presentation.md -o index.html --html
         env:
-          MARP_USER: root:root
+            MARP_USER: root:root
 
       # 3. Configure AWS Credentials
       # It is highly recommended to use OIDC (Role-to-Assume) instead of long-lived secrets.
@@ -42,7 +44,7 @@ jobs:
       - name: Deploy to S3
         run: |
           # Sync the generated HTML file
-          aws s3 cp bhav-and-scott-presentation.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/bhav-scott-birthday-2026/index.html
+          aws s3 cp index.html s3://${{ secrets.AWS_S3_BUCKET_NAME }}/bhav-scott-birthday-2026/index.html
           
           # Sync the images folder (ignores unchanged files for speed)
           aws s3 sync ./images s3://${{ secrets.AWS_S3_BUCKET_NAME }}/bhav-scott-birthday-2026/images
