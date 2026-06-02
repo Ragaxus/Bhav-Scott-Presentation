@@ -123,19 +123,12 @@ Eat glass.
 <!-- transition: cube-->
 
 ---
-# <span class="number">3.</span> The mixolydian scale <a name="mixolydian"> </a>
-
-![w:500](images/mixolydian-scale.png)
-
-<!-- transition: none -->
-
----
 
 # <span class="number">3.</span> The mixolydian scale
 
 ![w:500](images/mixolydian-scale.png)
 
-It's just a minor scale except that the seventh note (the 7) is flat
+* It's just a major scale except that the seventh note (the 7) is flat
 
 ---
 
@@ -316,7 +309,7 @@ Defined as the ratio of *any* two lengths when the ratio a/b is equal to the rat
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 618" width="80%" height="80%">
 
-<rect x="0" y="0" width="618" height="618" class="rect-base r1" stroke="#4a5568" fill="#1a202c" />
+<rect x="0" y="0" width="618" height="618" class="rect-base r1" stroke="#4a5568">
     <rect x="618" y="0" width="382" height="382" class="rect-base r2" stroke="#718096" fill="#2d3748" />
     <rect x="764" y="382" width="236" height="236" class="rect-base r3" stroke="#a0aec0" fill="#4a5568" />
     <rect x="618" y="472" width="146" height="146" class="rect-base r4" stroke="#cbd5e0" fill="#718096" />
@@ -357,7 +350,7 @@ Defined as the ratio of *any* two lengths when the ratio a/b is equal to the rat
         animation: drawSpiral 4s ease-in-out forwards;
         animation-delay: 2.2s; 
     }
-     .r1 { animation-delay: 0.0s; }
+     .r1 { animation-delay: 0.0s; background-image: url('images/desmodium.jpg') }
      .r2 { animation-delay: 0.4s; }
      .r3 { animation-delay: 0.8s; }
      .r4 { animation-delay: 1.2s; }
