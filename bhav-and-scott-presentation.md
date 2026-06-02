@@ -309,22 +309,22 @@ Defined as the ratio of *any* two lengths when the ratio a/b is equal to the rat
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 618" width="80%" height="80%">
 
-<rect x="0" y="0" width="618" height="618" class="rect-base r1" stroke="#4a5568">
-    <rect x="618" y="0" width="382" height="382" class="rect-base r2" stroke="#718096" fill="#2d3748" />
-    <rect x="764" y="382" width="236" height="236" class="rect-base r3" stroke="#a0aec0" fill="#4a5568" />
-    <rect x="618" y="472" width="146" height="146" class="rect-base r4" stroke="#cbd5e0" fill="#718096" />
-    <rect x="618" y="382" width="90" height="90" class="rect-base r5" stroke="#e2e8f0" fill="#a0aec0" />
-    <rect x="708" y="382" width="56" height="90" class="rect-base r6" stroke="#edf2f7" fill="#cbd5e0" />
-    <path class="arc" d="
-        M 0,618 
-        A 618,618 0 0,1 618,0
-        A 382,382 0 0,1 1000,382
-        A 236,236 0 0,1 764,618
-        A 146,146 0 0,1 618,472
-        A 90,90 0 0,1 708,382
-        A 56,56 0 0,1 764,427
-        A 56,56 0 0,1 708,472
+<rect x="0" y="0" width="618" height="618" class="rect-base r6" stroke="#4a5568">
+    <rect x="618" y="0" width="382" height="382" class="rect-base r5" stroke="#718096" fill="#2d3748" />
+    <rect x="764" y="382" width="236" height="236" class="rect-base r4" stroke="#a0aec0" fill="#4a5568" />
+    <rect x="618" y="472" width="146" height="146" class="rect-base r3" stroke="#cbd5e0" fill="#718096" />
+    <rect x="618" y="382" width="90" height="90" class="rect-base r2" stroke="#e2e8f0" fill="#a0aec0" />
+    <rect x="708" y="382" width="56" height="90" class="rect-base r1" stroke="#edf2f7" fill="#cbd5e0" />
+    <path class="arc" d="        
+	M 708,472
+        A 34,34 0 0,0 708,382
+        A 90,90 0 0,0 618,472
+        A 146,146 0 0,0 764,618
+        A 236,236 0 0,0 1000,382
+        A 382,382 0 0,0 618,0
+        A 618,618 0 0,0 0,618
     " />
+
 <defs>
 <style>
     /* 1. Set the initial states so they are ready but hidden */
