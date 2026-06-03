@@ -86,6 +86,7 @@ Eat glass.
    * So, "roots"
 * Means by which words are constructed in Hebrew and other Semitic languages
 
+<!-- transition: none-->
 ---
 <style>
 	.shoresh1 {
