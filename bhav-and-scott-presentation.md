@@ -58,7 +58,7 @@ Thank you. You're welcome.
 <section>
 <span class="hebrew">.יריתי בציפור שלך כי היית איום</span>
 
-*(yariti betzipur shlach ki hayat ium)*
+*(yariti betzipur shelach ki hayat ium)*
 
 I bolted your bird because you are the threat.
 </section>
@@ -72,7 +72,7 @@ I bolted your bird because you are the threat.
 <span class="hebrew">.לאכול זכוכית</span>
 
 
-*(lachul zhuhit)*
+*(lechol zchuchit)*
 
 Eat glass.
 
@@ -106,6 +106,7 @@ Eat glass.
 |Hebrew word|pronunciation|meaning|
 |---|---|---|
 |<span class="shoresh1">מֶ</span><span class="shoresh2">ל</span><span class="shoresh3">ךְ</span>| _(melekh)_ | king
+|<span class="shoresh1">מ</span><span class="shoresh2">ַלְ</span><span class="shoresh3">כָּ</span>א | *(malkah)* | queen
 |<span class="shoresh1">מַ</span><span class="shoresh2">לְ</span ><span class="shoresh3">כ</span>וּת | _(malkut)_ | kingdom
 
 <!-- transition: cube -->
