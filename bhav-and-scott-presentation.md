@@ -110,26 +110,203 @@ Eat glass.
 
 <!-- transition: cube -->
 ---
-# <span class="number">2.</span> The history of celebrating birthdays <a name="birthdays"> </a>
-* Initially important for astrological reasons
-* Ancient Egypt: birthdays for royalty
-* Ancient Greece: birthdays for men (and candles on cakes)
-* 14th century: every infant was given the name of a saint as a protector. People celebrated their saint’s day, not their own birthday. 
 
-<!-- transition: none -->
----
-# <span class="number">2.</span> The history of celebrating birthdays
-- The modern children's birthday party came from Germany (kinderfeste) in the early 19th century, an era when the individual person was seen as important and when childhood was “discovered” as a special stage of life.
+<style>
 
-<!-- transition: cube-->
+/*==================================
+    TIMELINE
+==================================*/
+
+    /*-- GENERAL STYLES
+    ------------------------------*/
+    .timeline {
+        line-height: 1.4em;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        h1, h2, h3, h4, h5, h6 {
+            line-height: inherit;
+        }
+    }
+
+    /*----- TIMELINE ITEM -----*/
+
+    .timeline-item {
+        padding-left: 40px;
+        position: relative;
+		padding-bottom: 40px;
+        &:last-child {
+            padding-bottom: 0;
+        }
+    }
+
+    /*----- TIMELINE INFO -----*/
+
+    .timeline-info {
+        font-size: 24px;
+        font-weight: 600;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+        white-space: nowrap;
+    }
+    /*----- TIMELINE MARKER -----*/
+
+    .timeline-marker {
+        position: absolute;
+        top: 0; bottom: 0; left: 0;
+        width: 24px;
+        &:before {
+            background: #FF6B6B;
+            border: 3px solid transparent;
+            border-radius: 100%;
+            content: "";
+            display: block;
+            height: 15px;
+            position: absolute;
+            top: 18px; left: 0;
+            width: 15px;
+            transition: background 0.3s ease-in-out,
+                    border 0.3s ease-in-out;
+        }
+        &:after {
+            content: "";
+            width: 3px;
+            background: #CCD5DB;
+            display: block;
+            position: absolute;
+            top: 45px; bottom: 0; left: 8px;
+        }
+        .timeline-item:last-child &:after {
+            content: none;
+        }
+    }
+    .timeline-item:not(.period):hover .timeline-marker:before {
+        background: transparent;
+        border: 3px solid #FF6B6B;
+    }
+
+    /*----- TIMELINE CONTENT -----*/
+
+    .timeline-content {
+        p:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    /*----- TIMELINE PERIOD -----*/
+    
+    .period {
+        padding: 0;
+        .timeline-info {
+            display: none;
+        }
+        .timeline-marker {
+            &:before {
+                background: transparent;
+                content: "";
+                width: 15px;
+                height: auto;
+                border: none;
+                border-radius: 0;
+                top: 0;
+                bottom: 30px;
+                position: absolute;
+                border-top: 3px solid #CCD5DB;
+                border-bottom: 3px solid #CCD5DB;
+            }
+            &:after {
+                content: "";
+                height: 32px;
+                top: auto;
+            }
+        }
+        .timeline-content {
+            padding: 40px 0 70px;
+        }
+        .timeline-title {
+            margin: 0;
+        }
+    }
+
+.timeline p {
+	font-size: 22px;
+	line-height: normal;
+}
+
+[data-bespoke-marp-fragment="inactive"] {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+  }
+
+  [data-bespoke-marp-fragment="active"] {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+
+</style>
+
+## <span class="number"> 2. </span> The history of birthdays
+
+<ul class="timeline">
+	<li class="timeline-item">
+		<div class="timeline-info">
+			<span>Ancient Egypt</span>
+		</div>
+		<div class="timeline-marker"></div>
+		<div class="timeline-content" data-marpit-fragment="1">
+			<p>Celebrations for birthdays of royalty (important for astrological reasons)</p>
+		</div>
+	</li>
+	<li class="timeline-item">
+		<div class="timeline-info">
+			<span>Ancient Greece</span>
+		</div>
+		<div class="timeline-marker"></div>
+		<div class="timeline-content" data-marpit-fragment="2">
+			<p>Birthdays for men (and candles on cakes)</p>
+		</div>
+	</li>
+	</li>
+		<li class="timeline-item">
+		<div class="timeline-info">
+			<span>14th century</span>
+		</div>
+		<div class="timeline-marker"></div>
+		<div class="timeline-content" data-marpit-fragment="3">
+			<p>Every infant was given the name of a saint as a protector. People celebrated their saint’s day, not their own birthday. </p>
+		</div>
+	</li>
+	</li>
+		<li class="timeline-item">
+		<div class="timeline-info">
+			<span>early 19th century</span>
+		</div>
+		<div class="timeline-marker"></div>
+		<div class="timeline-content" data-marpit-fragment="3">
+			<p> Germany (kinderfeste), during an era when the individual person was seen as important and when childhood was “discovered” as a special stage of life (roots of modern birthday party) </p>
+		</div>
+	</li>
+</ul>
+
+<!-- transition: cube -->
 
 ---
 
 # <span class="number">3.</span> The mixolydian scale
 
+<style scoped>
+	ul {
+		list-style-type: none;
+		text-align: center;
+	}
+</style>
+
 ![w:500](images/mixolydian-scale.png)
 
-* It's just a major scale except that the seventh note (the 7) is flat
+* It's just a major scale, 
+except that the 
+seventh note is flat
 
 ---
 
@@ -349,14 +526,13 @@ Defined as the ratio of *any* two lengths when the ratio a/b is equal to the rat
     .arc
     { 
         animation: drawSpiral 4s ease-in-out forwards;
-        animation-delay: 2.2s; 
     }
-     .r1 { animation-delay: 0.0s; background-image: url('images/desmodium.jpg') }
-     .r2 { animation-delay: 0.4s; }
-     .r3 { animation-delay: 0.8s; }
-     .r4 { animation-delay: 1.2s; }
-     .r5 { animation-delay: 1.6s; }
-     .r6 { animation-delay: 2.0s; }
+     .r1 { animation-delay: 0.1481s; }
+     .r2 { animation-delay: 0.2963s; }
+     .r3 { animation-delay: 0.5186s; }
+     .r4 { animation-delay: 0.8888s; }
+     .r5 { animation-delay: 1.4815s; }
+     .r6 { animation-delay: 2.4444s; }
     @keyframes fadeIn { to { opacity: 0.8; } }
     @keyframes drawSpiral { to { stroke-dashoffset: 0; } }
 </style>
