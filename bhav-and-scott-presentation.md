@@ -112,6 +112,10 @@ Eat glass.
 <!-- transition: cube -->
 ---
 
+# <span class="number">2. </span> The history of birthdays
+
+<!-- transition: fade -->
+---
 <style>
 
 /*==================================
@@ -176,7 +180,7 @@ Eat glass.
             background: #CCD5DB;
             display: block;
             position: absolute;
-            top: 45px; bottom: 0; left: 8px;
+            top: 45px; bottom: -10px; left: 8.5px;
         }
         .timeline-item:last-child &:after {
             content: none;
@@ -603,38 +607,55 @@ That's only 0.05% different!
 <!-- class: not-fibonacci -->
 # 6. Toilets <a name="toilets"> </a>
 
-<!-- footer: "thearchaeologist.org, \"Sanitation of the Indus Valley Civilisation\" "-->
-
 <style>
-	.caption {
+    .not-fibonacci .timeline-marker:before {
+        background: blue;
+    }
+	.caption p {
 		font-style: italic;
-		font-size: 18px;
+		font-size: 14px;
 	}
 	.two-cols {
-		gap: 55px;
+		gap: 20px;
 	}
-	.smaller-text li {
+	.smaller-text * {
 		font-size: 25px;
 	}
+    .continuer {
+            content: "";
+            width: 3px;
+            background: #CCD5DB;
+            display: block;
+            position: absolute;
+            top: 0; bottom: 540px; left: 78px;
+    }
 </style>
 
-<section class="two-cols">
+<ul class="timeline">
+    <li class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div data-marpit-fragment="1">
+            <div class="timeline-info">
+                <span>Indus River Valley, ~3000BC</span>
+            </div>
+            <div>
+                <section class="two-cols">
+                    <section id="baths">
+<img src="./images/Great_bath_view_Mohenjodaro.webp" width="300">
+<span class="caption"><p> The Great Bath at Mohenjo-Daro </p> </span>
+                    </section>
+                    <section class="smaller-text"> <p><i>"Several courtyard houses had both a washing platform and a dedicated toilet/waste disposal hole. The toilet holes would be flushed by emptying a jar of water, drawn from the house's central well, through a clay brick pipe, and into a shared brick drain, that would feed into an adjacent soak pit (cesspit)."</i></p>
+                    </section>
+                </section>
+            </div>
+        </div>
+    </li>
+<li> </li>
+</ul>
 
-<section class="smaller-text">
 
-* Originally designed in the Indus River valley civilizations
-<br>
-* <i>"Several courtyard houses had both a washing platform and a dedicated toilet/waste disposal hole. The toilet holes would be flushed by emptying a jar of water, drawn from the house's central well, through a clay brick pipe, and into a shared brick drain, that would feed into an adjacent soak pit (cesspit)."</i>
 
-</section>
-
-<section>
-
-![w:500](images/Great_bath_view_Mohenjodaro.webp)
-<span class="caption"> The Great Bath at Mohenjo-Daro </span>
-</section>
-
-</section>
+<!-- footer: "thearchaeologist.org, \"Sanitation of the Indus Valley Civilisation\" "-->
 
 <!-- transition: none -->
 
@@ -644,22 +665,49 @@ That's only 0.05% different!
 
 # 6. Toilets
 
+<div class="continuer"></div>
+<ul class="timeline">
+    <li class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div data-marpit-fragment="1">
+            <div class="timeline-info"> England, 1596 </div>
+            <div class="timeline-content"> 
+                <p>Sir John Harington, in his <i>The Metamorphosis of Ajax</i>, describes a flushing device</p>
+            </div>
+        </div>
+    </li>
+    <li class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div data-marpit-fragment="2">
+            <div class="timeline-info"> Scotland, 1775</div>
+            <div class="timeline-content"> 
+                <p>Alexander Cumming patents flushing toilet and provides the innovation of the S-pipe to seal odor away from the toilet bowl</p>
+            </div>
+        </div>
+    </li>
+    <li class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div data-marpit-fragment="3">
+            <div class="timeline-info">England, 1883</div>
+            <div class="timeline-content">
 <section class="two-cols"> 
-
 <div>
 
-* 1596: Sir John Harington, in his *The Metamorphosis of Ajax*, describes a flushing device
-* 1775: Alexander Cumming patents flushing toilet and provides the innovation of the S-pipe to seal odor away from the toilet bowl
-* 1883: Twyford started using porcelain
+![w:200](images/Model-of-the-Optimus-patent-water-closet-invented-by-Stevens-Hellyer-and-made-by-Dent-Hellyer-Limited-British-1870-1024x816.jpg)
+
 </div>
 
 <div>
-
-![w:400](images/Model-of-the-Optimus-patent-water-closet-invented-by-Stevens-Hellyer-and-made-by-Dent-Hellyer-Limited-British-1870-1024x816.jpg)
-
+<p>Twyford started using porcelain</p>
 </div>
-
 </section>
+            </div>
+        </div>
+    </li>
+    <li></li>
+</ul>
+
+
 
 
 ---
