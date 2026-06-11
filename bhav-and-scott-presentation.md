@@ -374,7 +374,6 @@ Eat glass.
     }
 </style>
 
-# <span class="number">3.</span> The mixolydian scale
 
 <style scoped>
 	ul {
@@ -383,13 +382,26 @@ Eat glass.
 	}
 </style>
 
-![w:500](images/mixolydian-scale.png)
+<script>
+  function playScale() {
+    document.getElementById("cmix").play();
+  }
+</script>
 
-* It's just a major scale, 
+# <span class="number">3.</span> The mixolydian scale
+
+<audio id="cmix" src="./images/c-mix-mode-scale.mp3"> </audio>
+
+<img src="./images/mixolydian-scale.png" width="500px" onclick="playScale()" />
+
+- It's just a major scale, 
 except that the 
 seventh note is flat
 
+<!-- transition: none -->
+
 ---
+# <span class="number">3.</span> The mixolydian scale
 
 <style scoped>
     section::after {
@@ -991,9 +1003,6 @@ That's only 0.05% different!
 		flex-direction: row;
 		justify-content: space-evenly;
         
-        & img {
-            height: 350px;
-        }
 	}
 </style>
 
@@ -1008,9 +1017,48 @@ That's only 0.05% different!
 *"The simultaneously grim and playful images she creates are distinguished by their intricate detail, unexpected compositions, and narrative sensibility, offering a window into a fantastical world that is both sinister and inviting."*
 </div>
 
-<!-- transition: none -->
+<!-- transition: fade -->
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-7.svg")
+    }
+</style>
+
+# 7. The art of Wylie Beckert <a name="wylie-beckert"></a>
+
+<style>
+	.quote p {
+		font-size: 24px;
+	}
+    .gallery {
+        margin: 0 150px 30px;
+    }
+
+	.wylie-gallery {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-evenly;
+        
+        & img {
+            height: 350px;
+        }
+	}
+</style>
+
+<div class="wylie-gallery">
+
+![](./images/WylieBeckert-memorylapse.jpg)
+
+</div>
+
+<!-- transition: fade -->
+
+---
+
 
 <style scoped>
     section::after {
@@ -1049,6 +1097,36 @@ That's only 0.05% different!
 <!-- transition: cube -->
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-8.svg")
+    }
+</style>
+
+<!-- _class: fibonacci -->
+<!-- footer: ""-->
+
+# <span class="number">8.</span> Zeugma
+
+---
+<!-- _class: fibonacci -->
+<!-- paginate: false -->
+<style scoped>
+    p {
+        font-size: 96px;
+        font-family: "Comic Sans MS", "Comic Sans", cursive;
+        transform: rotate(20deg);
+        position: absolute;
+        left: 400px;
+    }
+</style>
+
+<p> zeugma nutz lol </p>
+
+---
+
 
 <style scoped>
     section::after {
