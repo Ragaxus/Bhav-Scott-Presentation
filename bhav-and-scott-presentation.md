@@ -128,9 +128,9 @@ Eat glass.
 # <span class="number">1.</span> A Hebrew lesson
 ### b. Shoreshim <a name="hebrew-shoreshim"> </a>
 
+- Means by which words are constructed in Hebrew and other Semitic languages
 * "Shoresh" means "root", "-im" is pluralization
    * So, "roots"
-* Means by which words are constructed in Hebrew and other Semitic languages
 
 <!-- transition: none-->
 ---
@@ -582,7 +582,7 @@ Golden rectangle but it's pictures of me and my family-->
 </div>
 <div>
 
-Defined as the ratio of *any* two lengths when the ratio a/b is equal to the ratio of the larger length with their sum, a+b/a 
+Defined as the ratio of two lengths a/b, such that it is equal to the ratio of the larger length with their sum, a+b/a 
 </div>
 </section>
 
@@ -758,7 +758,7 @@ That's only 0.05% different!
 		font-size: 30px;
 	}
 	.number-more {
-		color: #E6D543;
+		color: blue;
 	}
 </style>
 
