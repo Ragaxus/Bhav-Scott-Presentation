@@ -1109,7 +1109,7 @@ That's only 0.05% different!
 <!-- footer: ""-->
 
 # <span class="number">8.</span> Zeugma
-
+<!-- transition: none -->
 ---
 <!-- _class: fibonacci -->
 <!-- paginate: false -->
@@ -1125,6 +1125,7 @@ That's only 0.05% different!
 
 <p> zeugma nutz lol </p>
 
+<!-- transition: none -->
 ---
 
 
