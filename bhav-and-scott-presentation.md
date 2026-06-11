@@ -20,12 +20,6 @@ section.not-fibonacci {
 .hebrew {
 	font-family: bold;
 }
-.progress-icon {
-    z-index: 1;
-    position: relative;
-    bottom: 10px;
-    right: 10px;
-}
 </style>
 # I learned about a few things
 ## Now I'll tell you about them
@@ -922,37 +916,39 @@ That's only 0.05% different!
 # 6. Toilets
 <!-- footer: "" -->
 <style scoped>
-	p.blurb { font-size: 32px; text-align: left}
+	p.blurb { font-size: 24px; text-align: left}
     .continuer {
             content: "";
             width: 3px;
             background: #CCD5DB;
             display: block;
             position: absolute;
-            top: 0; bottom: 475px; left: 78px;
+            top: 0; bottom: 505px; left: 78px;
+    }
+    .timeline-content li {
+        font-size: 24px;
     }
 </style>
+
 <div class="continuer"></div>
 <ul class="timeline">
     <li class="timeline-item">
-    <div class="timeline-marker"> </div>
-    <div class="timeline-info">Low Earth Orbit, 1983</div>
-<div class="timeline-content">
-<section class="two-cols">
-	<div> 
-
-![w:500](images/space-toilet.jpg) </div>
-
-<div>
-
-<p class="blurb">
-
-* Space Shuttle makes first flight with Waste Containment System (WCS) -- the first space toilet
-* Works by using a vacuum pump and airflow to direct waste into a water filtration system or a disposable bag
-	
-</p>
+        <div class="timeline-marker"> </div>
+        <div data-marpit-fragment="1">
+            <div class="timeline-info">Low Earth Orbit, 1983</div>
+            <div class="timeline-content">
+                <section class="two-cols">
+                    <div> 
+                        <img src="images/space-toilet.jpg" width="500px" />
+                    </div>
+                    <div>
+                        <ul>
+                            <li>Space Shuttle makes first flight with Waste Containment System (WCS): the first space toilet </li>
+                            <li>Works by using a vacuum pump and airflow to direct waste into a water filtration system or a disposable bag</li>
+                        </ul>
+                    </div>
+                </section>
 </div>
-</section>
 </div>
 </li>
 <ul>
@@ -986,21 +982,28 @@ That's only 0.05% different!
 	.quote p {
 		font-size: 24px;
 	}
+    .gallery {
+        margin: 0 150px 30px;
+    }
 
 	.wylie-gallery {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-evenly
+		justify-content: space-evenly;
+        
+        & img {
+            height: 350px;
+        }
 	}
 </style>
 
 <div class="wylie-gallery">
 
-![h:400](images/WylieBeckert-piranesi1000.jpg)![h:400](images/WylieBeckert-carrier-600.jpg)![h:400](images/WylieBeckert-takingtree-1000.jpg)
+![](images/WylieBeckert-piranesi1000.jpg)![](images/WylieBeckert-carrier-600.jpg)![](images/WylieBeckert-takingtree-1000.jpg)
 
 </div>
 
-<div class="quote">
+<div class="quote gallery">
 
 *"The simultaneously grim and playful images she creates are distinguished by their intricate detail, unexpected compositions, and narrative sensibility, offering a window into a fantastical world that is both sinister and inviting."*
 </div>
@@ -1087,13 +1090,13 @@ That's only 0.05% different!
 <div>
 <div class="container">
 
-<div>
+<div data-marpit-fragment="1">
 
 >  You are free to execute your laws, and your citizens, as you see fit.
 <p class="attribution"> Commander Riker</p>
 </div>
 
-<div>
+<div data-marpit-fragment="2">
 
 > Yet time and her aunt moved slowly — and her patience and her ideas were nearly worn our before the tete-a-tete was over.
 <p class="attribution"> Jane Austen </p>
@@ -1116,6 +1119,8 @@ That's only 0.05% different!
 		color: gold;
 	}
 </style>
+
+<a name="toc"></a>
 
 | | |
 |----|----|
