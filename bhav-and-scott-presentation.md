@@ -2,7 +2,8 @@
 marp: true
 theme: uncover 
 title: Bhav And Scott Birthday Presentation 2026
-transition: cube 
+transition: cube
+paginate: true 
 ---
 <style>
 section.fibonacci {
@@ -19,6 +20,12 @@ section.not-fibonacci {
 .hebrew {
 	font-family: bold;
 }
+.progress-icon {
+    z-index: 1;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
 </style>
 # I learned about a few things
 ## Now I'll tell you about them
@@ -29,19 +36,42 @@ section.not-fibonacci {
 * Let's go
 
 ---
-<!-- class: fibonacci -->
+
+<style scoped>
+    section {
+        display: block;
+    }
+</style>
+
+<!-- class: fibonacci topic1a -->
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-1a.svg")
+    }
+</style>
+
 # <span class="number">1.</span> A Hebrew lesson
 ### a. Common words and phrases <a name="hebrew-phrases"> </a>
+
 
 <!-- transition: none -->
 
 ---
 
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-1a.svg")
+    }
+</style>
+
 # <span class="number">1.</span> A Hebrew lesson
 ### a. Common words and phrases
 
 <section>
-<span class="hebrew">תודה. בבקשה.</span>
+<span class="hebrew">.תודה. בבקשה</span>
 
 *(Todah. B'vahkeshah.)*
 
@@ -52,13 +82,20 @@ Thank you. You're welcome.
 
 ---
 
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-1a.svg")
+    }
+</style>
+
 # <span class="number">1.</span> A Hebrew lesson
 ### a. Common words and phrases
 
 <section>
 <span class="hebrew">.יריתי בציפור שלך כי היית איום</span>
 
-*(yariti betzipur shelach ki hayat ium)*
+*(yariti betzipur shelach ki hayeet ium)*
 
 I bolted your bird because you are the threat.
 </section>
@@ -66,18 +103,33 @@ I bolted your bird because you are the threat.
 <!-- transition: none -->
 
 ---
+
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-1a.svg")
+    }
+</style>
+
 # <span class="number">1.</span> A Hebrew lesson
 ### a. Common words and phrases
 
-<span class="hebrew">.לאכול זכוכית</span>
+<span class="hebrew">.תֹּאכְלוּ זכוכית </span>
 
-
-*(lechol zchuchit)*
+*(to'chlu zchuchit)*
 
 Eat glass.
 
 <!-- transition: fade -->
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-1b.svg")
+    }
+</style>
 
 # <span class="number">1.</span> A Hebrew lesson
 ### b. Shoreshim <a name="hebrew-shoreshim"> </a>
@@ -88,6 +140,14 @@ Eat glass.
 
 <!-- transition: none-->
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-1b.svg")
+    }
+</style>
+
 <style>
 	.shoresh1 {
 		color: red;
@@ -106,16 +166,31 @@ Eat glass.
 |Hebrew word|pronunciation|meaning|
 |---|---|---|
 |<span class="shoresh1">מֶ</span><span class="shoresh2">ל</span><span class="shoresh3">ךְ</span>| _(melekh)_ | king
-|<span class="shoresh1">מ</span><span class="shoresh2">ַלְ</span><span class="shoresh3">כָּ</span>א | *(malkah)* | queen
+|<span class="shoresh1">מ</span><span class="shoresh2">ַלְ</span><span class="shoresh3">כָּ</span>ה | *(malkah)* | queen
 |<span class="shoresh1">מַ</span><span class="shoresh2">לְ</span ><span class="shoresh3">כ</span>וּת | _(malkut)_ | kingdom
 
 <!-- transition: cube -->
 ---
 
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-2.svg")
+    }
+</style>
+
 # <span class="number">2. </span> The history of birthdays
 
 <!-- transition: fade -->
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-2.svg")
+    }
+</style>
+
 <style>
 
 /*==================================
@@ -298,6 +373,13 @@ Eat glass.
 
 ---
 
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-3.svg")
+    }
+</style>
+
 # <span class="number">3.</span> The mixolydian scale
 
 <style scoped>
@@ -315,6 +397,13 @@ seventh note is flat
 
 ---
 
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-3.svg")
+    }
+</style>
+
 <video controls width=800 onclick="this.play()">
 
 <source src="./images/sonic-3-hookpad.mp4"  type="video/mp4" />
@@ -323,6 +412,14 @@ seventh note is flat
 
 <!-- transition: cube -->
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-4.svg")
+    }
+</style>
+
 # 4. Elephant grass <a name="elephant-grass"> </a>
 <!-- class: not-fibonacci -->
 <!-- footer: "Illus. Tony Roberts. Map from tropicalforages.info"-->
@@ -359,6 +456,15 @@ Maize is responsible for one-third of all the calories consumed in sub-Saharan A
 <!-- transition: none -->
 
 ---
+
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-4.svg")
+    }
+</style>
+
 # 4. Elephant grass
 <!-- footer: ""-->
 
@@ -387,6 +493,14 @@ Maize is responsible for one-third of all the calories consumed in sub-Saharan A
 <!-- transition: none-->
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-4.svg")
+    }
+</style>
+
 # 4. Elephant grass
 <!-- footer: "One third of all sub-Saharan calories thing: [here](https://www.tandfonline.com/doi/full/10.1080/87559129.2019.1588290). More about push-pull with elephant grass and Desmodium: [here](https://www.fhcanada.org/blog/how-does-push-pull-pest-management-work)." -->
 <section class="two-cols">
@@ -411,6 +525,14 @@ Checkmate bugs-->
 <!-- transition: cube -->
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-5.svg")
+    }
+</style>
+
 <!-- footer: "" -->
 <!-- class: not-fibonacci -->
 # 5. The golden ratio <a name="the-golden-ratio"></a>
@@ -424,12 +546,27 @@ Golden rectangle but it's pictures of me and my family-->
 <!-- transition: fade -->
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-5.svg")
+    }
+</style>
+
 <!-- class: fibonacci -->
 # <span class="number">5. </span> The golden ratio
 
 <!-- transition: none -->
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-5.svg")
+    }
+</style>
 
 # <span class="number">5. </span> The golden ratio
 <section class="two-cols">
@@ -444,6 +581,13 @@ Defined as the ratio of *any* two lengths when the ratio a/b is equal to the rat
 </section>
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-5.svg")
+    }
+</style>
 
 <style>
 	.formula {
@@ -469,6 +613,13 @@ Defined as the ratio of *any* two lengths when the ratio a/b is equal to the rat
 
 ---
 
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-5.svg")
+    }
+</style>
+
 <style>
 	.formula {
 		vertical-align: middle
@@ -488,25 +639,32 @@ Defined as the ratio of *any* two lengths when the ratio a/b is equal to the rat
 </section>
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-5.svg")
+    }
+</style>
 # <span class="number">5. </span> The golden ratio
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 618" width="80%" height="80%">
 
-<rect x="0" y="0" width="618" height="618" class="rect-base r6" stroke="#4a5568">
-    <rect x="618" y="0" width="382" height="382" class="rect-base r5" stroke="#718096" fill="#2d3748" />
-    <rect x="764" y="382" width="236" height="236" class="rect-base r4" stroke="#a0aec0" fill="#4a5568" />
-    <rect x="618" y="472" width="146" height="146" class="rect-base r3" stroke="#cbd5e0" fill="#718096" />
-    <rect x="618" y="382" width="90" height="90" class="rect-base r2" stroke="#e2e8f0" fill="#a0aec0" />
-    <rect x="708" y="382" width="56" height="90" class="rect-base r1" stroke="#edf2f7" fill="#cbd5e0" />
-    <path class="arc" d="        
-	M 708,472
-        A 34,34 0 0,0 708,382
-        A 90,90 0 0,0 618,472
-        A 146,146 0 0,0 764,618
-        A 236,236 0 0,0 1000,382
-        A 382,382 0 0,0 618,0
-        A 618,618 0 0,0 0,618
-    " />
+<image x="0" y="0" width="618" height="618" class="rect-base r6" href="./images/golds/stav-georgia.jpg" preserveAspectRatio="xMidYMid slice" />
+<image x="618" y="0" width="382" height="382" class="rect-base r5" href="./images/golds/maya-stella.jpg" preserveAspectRatio="xMidYMid slice" />
+<image x="764" y="382" width="236" height="236" class="rect-base r4" href="./images/golds/mom.jpg" preserveAspectRatio="xMidYMid slice" />
+<image x="618" y="472" width="146" height="146" class="rect-base r3" href="./images/golds/dad.jpg" preserveAspectRatio="xMidYMid slice" />
+<image x="618" y="382" width="90" height="90" class="rect-base r2" href="./images/golds/maya.jpg" preserveAspectRatio="xMidYMid slice" />
+<image x="708" y="382" width="56" height="90" class="rect-base r1" href="./images/golds/stav-little.jpg" preserveAspectRatio="xMidYMid slice" />
+<path class="arc" d="        
+M 708,472
+    A 34,34 0 0,0 708,382
+    A 90,90 0 0,0 618,472
+    A 146,146 0 0,0 764,618
+    A 236,236 0 0,0 1000,382
+    A 382,382 0 0,0 618,0
+    A 618,618 0 0,0 0,618
+" />
 
 <defs>
 <style>
@@ -538,7 +696,7 @@ Defined as the ratio of *any* two lengths when the ratio a/b is equal to the rat
      .r4 { animation-delay: 0.8888s; }
      .r5 { animation-delay: 1.4815s; }
      .r6 { animation-delay: 2.4444s; }
-    @keyframes fadeIn { to { opacity: 0.8; } }
+    @keyframes fadeIn { to { opacity: 1.0; } }
     @keyframes drawSpiral { to { stroke-dashoffset: 0; } }
 </style>
 </defs>
@@ -546,6 +704,13 @@ Defined as the ratio of *any* two lengths when the ratio a/b is equal to the rat
 
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-5.svg")
+    }
+</style>
 # <span class="number">5. </span> The golden ratio
 
 <div>
@@ -555,6 +720,13 @@ Defined as the ratio of *any* two lengths when the ratio a/b is equal to the rat
 </section>
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-5.svg")
+    }
+</style>
 # <span class="number">5. </span> The golden ratio
 
 <div>
@@ -567,6 +739,13 @@ That's only 0.05% different!
 
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-5.svg")
+    }
+</style>
 
 <style>
 	.distance {
@@ -600,10 +779,25 @@ That's only 0.05% different!
 
 <!-- transition: cube -->
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-6.svg")
+    }
+</style>
+
 <!-- class: not-fibonacci -->
 # 6. Toilets <a name="toilets"> </a>
 <!-- transition: fade -->
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-6.svg")
+    }
+</style>
 <!-- class: not-fibonacci -->
 # 6. Toilets <a name="toilets"> </a>
 
@@ -661,6 +855,13 @@ That's only 0.05% different!
 
 ---
 
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-6.svg")
+    }
+</style>
+
 <!-- footer: "sciencemuseum.org.uk, \"A flushing story\"" -->
 
 # 6. Toilets
@@ -711,12 +912,32 @@ That's only 0.05% different!
 
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-6.svg")
+    }
+</style>
 # 6. Toilets
 <!-- footer: "" -->
-<style>
+<style scoped>
 	p.blurb { font-size: 32px; text-align: left}
+    .continuer {
+            content: "";
+            width: 3px;
+            background: #CCD5DB;
+            display: block;
+            position: absolute;
+            top: 0; bottom: 475px; left: 78px;
+    }
 </style>
-
+<div class="continuer"></div>
+<ul class="timeline">
+    <li class="timeline-item">
+    <div class="timeline-marker"> </div>
+    <div class="timeline-info">Low Earth Orbit, 1983</div>
+<div class="timeline-content">
 <section class="two-cols">
 	<div> 
 
@@ -725,20 +946,39 @@ That's only 0.05% different!
 <div>
 
 <p class="blurb">
-	Now there are toilets that work in space by using a vacuum pump and airflow to direct waste into a water filtration system or a disposable bag
+
+* Space Shuttle makes first flight with Waste Containment System (WCS) -- the first space toilet
+* Works by using a vacuum pump and airflow to direct waste into a water filtration system or a disposable bag
 	
 </p>
 </div>
 </section>
+</div>
+</li>
+<ul>
 
 <!-- transition: cube -->
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-7.svg")
+    }
+</style>
 
 # 7. The art of Wylie Beckert <a name="wylie-beckert"></a>
 
 <!-- transition: fade -->
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-7.svg")
+    }
+</style>
 
 # 7. The art of Wylie Beckert <a name="wylie-beckert"></a>
 
@@ -768,6 +1008,13 @@ That's only 0.05% different!
 <!-- transition: none -->
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-7.svg")
+    }
+</style>
 <!-- footer: "Wylie Beckert, <i>Creating a Targeted Illustration Sample</i>, MuddyColors.com" -->
 
 <style>
@@ -799,6 +1046,13 @@ That's only 0.05% different!
 <!-- transition: cube -->
 
 ---
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-8.svg")
+    }
+</style>
 <!-- footer: "" -->
 <!-- class: fibonacci -->
 # <span class="number"> 8. </span> <a name="zeugma"> </a> Zeugma

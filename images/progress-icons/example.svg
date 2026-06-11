@@ -1,0 +1,21 @@
+<svg width="210" height="210" viewBox="0 0 200 200">
+  <defs>
+	<radialGradient gradientUnits="userSpaceOnUse" id="golden-on" cx="0" cy="0" r="100" fx="0" fy="0">
+      <stop offset="0%" stop-color="#FDE940" />
+      <stop offset="31%" stop-color="#FDE940" />
+      <stop offset="100%" stop-color="brown" />
+    </radialGradient>
+  </defs>
+  <g transform="translate(100,100)" stroke="#000" stroke-width="2">
+<path d="M 0 0 34.44150891285808 -83.1491579260158  A 90 90 0 0 0  5.5109105961630896e-15 -90.0 Z" fill="url(#golden-on)"/>
+<path d="M 0 0 5.5109105961630896e-15 -90.0  A 90 90 0 0 0  -34.441508912858076 -83.1491579260158 Z" fill="url(#golden-on)"/>
+<path d="M 0 0 83.1491579260158 -34.4415089128581  A 90 90 0 0 0  34.44150891285814 -83.14915792601579 Z" fill="url(#golden-on)"/>
+<path d="M 0 0 83.14915792601579 34.44150891285813  A 90 90 0 0 0  83.1491579260158 -34.4415089128581 Z" fill="url(#golden-on)"/>
+<path d="M 0 0 34.4415089128581 83.1491579260158  A 90 90 0 0 0  83.14915792601579 34.44150891285813 Z" fill="url(#golden-on)"/>
+<path d="M 0 0 -34.44150891285813 83.14915792601579  A 90 90 0 0 0  34.4415089128581 83.1491579260158 Z" fill="url(#golden-on)"/>
+<path d="M 0 0 -83.14915792601582 34.44150891285807  A 90 90 0 0 0  -34.44150891285813 83.14915792601579 Z" fill="url(#golden-on)"/>
+<path d="M 0 0 -83.1491579260158 -34.44150891285809  A 90 90 0 0 0  -83.14915792601582 34.44150891285807 Z" fill="url(#golden-on)"/>
+<path d="M 0 0 -34.441508912858076 -83.1491579260158  A 90 90 0 0 0  -83.1491579260158 -34.44150891285809 Z" fill="url(#golden-on)"/>
+  </g>
+
+</svg>
