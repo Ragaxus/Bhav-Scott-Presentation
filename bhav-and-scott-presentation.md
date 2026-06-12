@@ -1213,7 +1213,7 @@ M 708,472
 
 <div data-marpit-fragment="2">
 
-> Yet time and her aunt moved slowly — and her patience and her ideas were nearly worn our before the tete-a-tete was over.
+> Yet time and her aunt moved slowly — and her patience and her ideas were nearly worn out before the tete-a-tete was over.
 <p class="attribution"> Jane Austen </p>
 
 </div>
