@@ -21,13 +21,38 @@ section.not-fibonacci {
 	font-family: bold;
 }
 </style>
-# I learned about a few things
-## Now I'll tell you about them
+
+<style scoped>
+    h1,h2,h3 {
+        font-family: "Courier New"
+    }
+</style>
+
+<!-- paginate: false -->
+
+# 2026-06-13 
+
+<!-- transition: none-->
+
 ---
 
-- Eight topics
+<style scoped>
+    .number {
+		color: #EEBC18;
+    }
+    * {
+        text-align: center;
+    }
+    li {
+        list-style-type: none;
+    }
+</style>
+
+- <span class="number">8 </span> topics
 * One minute each
 * Let's go
+
+<!-- transition: cube -->
 
 ---
 
@@ -38,6 +63,7 @@ section.not-fibonacci {
 </style>
 
 <!-- class: fibonacci topic1a -->
+<!-- paginate: true -->
 
 <style scoped>
     section::after {
@@ -128,9 +154,9 @@ Eat glass.
 # <span class="number">1.</span> A Hebrew lesson
 ### b. Shoreshim <a name="hebrew-shoreshim"> </a>
 
-- Means by which words are constructed in Hebrew and other Semitic languages
-* "Shoresh" means "root", "-im" is pluralization
-   * So, "roots"
+* "roots" 
+   * "shoresh" means "root", "-im" is pluralization
+* Means by which words are constructed in Hebrew and other Semitic languages
 
 <!-- transition: none-->
 ---
@@ -221,7 +247,6 @@ Eat glass.
         font-size: 24px;
         font-weight: 600;
         letter-spacing: 3px;
-        text-transform: uppercase;
         white-space: nowrap;
     }
     /*----- TIMELINE MARKER -----*/
@@ -303,7 +328,7 @@ Eat glass.
         }
     }
 
-.timeline p {
+.timeline * {
 	font-size: 22px;
 	line-height: normal;
 }
@@ -324,41 +349,52 @@ Eat glass.
 
 <ul class="timeline">
 	<li class="timeline-item">
-		<div class="timeline-info">
-			<span>Ancient Egypt</span>
-		</div>
 		<div class="timeline-marker"></div>
-		<div class="timeline-content" data-marpit-fragment="1">
-			<p>Celebrations for birthdays of royalty (important for astrological reasons)</p>
-		</div>
+        <div data-marpit-fragment="1">
+            <div class="timeline-info">
+                <span>Egypt, ~3000 BCE</span>
+            </div>
+            <div class="timeline-content" >
+                <p>Celebrations for birthdays of royalty (important for astrological reasons)</p>
+            </div>
+        </li>
+        <li class="timeline-item">
+        </div>
+		<div class="timeline-marker"></div>
+        <div data-marpit-fragment="2">
+            <div class="timeline-info">
+                <span>Ancient Greece</span>
+            </div>
+            <div class="timeline-content" >
+                <p>Birthdays for men (and candles on cakes)</p>
+            </div>
+        </div>
 	</li>
-	<li class="timeline-item">
-		<div class="timeline-info">
-			<span>Ancient Greece</span>
-		</div>
+	</li>
+		<li class="timeline-item">
 		<div class="timeline-marker"></div>
-		<div class="timeline-content" data-marpit-fragment="2">
-			<p>Birthdays for men (and candles on cakes)</p>
+		<div data-marpit-fragment="3">
+            <div class="timeline-info">
+                <span>14th century</span>
+            </div>
+			<div class="timeline-content">
+                <p>Every infant was given the name of a saint as a protector. People celebrated their saint’s day, not their own birthday. </p>
+            </div>
 		</div>
 	</li>
 	</li>
 		<li class="timeline-item">
-		<div class="timeline-info">
-			<span>14th century</span>
-		</div>
 		<div class="timeline-marker"></div>
-		<div class="timeline-content" data-marpit-fragment="3">
-			<p>Every infant was given the name of a saint as a protector. People celebrated their saint’s day, not their own birthday. </p>
-		</div>
-	</li>
-	</li>
-		<li class="timeline-item">
+		<div data-marpit-fragment="4">
 		<div class="timeline-info">
-			<span>early 19th century</span>
+			<span>Germany, 1700s CE</span>
 		</div>
-		<div class="timeline-marker"></div>
-		<div class="timeline-content" data-marpit-fragment="3">
-			<p> Germany (kinderfeste), during an era when the individual person was seen as important and when childhood was “discovered” as a special stage of life (roots of modern birthday party) </p>
+			<div class="timeline-content">
+                <p>
+
+* *Kinderfeste* , root of the modern birthday party 
+* This is when we start putting N candles on the cake <!-- during an era when the individual person was seen as important and when childhood was “discovered” as a special stage of life (roots of modern birthday party) --> </p>
+            </div>
 		</div>
 	</li>
 </ul>
@@ -426,6 +462,21 @@ seventh note is flat
     }
 </style>
 
+<!--_class: not-fibonacci-->
+
+# 4. Elephant grass
+
+<!-- transition: fade -->
+---
+
+
+<style scoped>
+    section::after {
+        font-size: 0%;
+        background-image: url("./images/progress-icons/progress-icon-4.svg")
+    }
+</style>
+
 # 4. Elephant grass <a name="elephant-grass"> </a>
 <!-- class: not-fibonacci -->
 <!-- footer: "Illus. Tony Roberts. Map from tropicalforages.info"-->
@@ -436,28 +487,54 @@ Maize is responsible for one-third of all the calories consumed in sub-Saharan A
 	.two-cols {
 		display: flex;
 		flex-direction: row;
+        height: 100%;
 	}
 	.two-cols div {
 		padding-right: 10px
 	}
-	.two-cols li {
-		font-size: 32px;
-	}
+    ul.grass-fact {
+        height: 100%;
+        li {
+            display: grid;
+            grid-template-columns: 30% 70%;
+            font-size: 32px;
+            list-style-type:none;
+            justify-content: center;
+            p {
+                margin: auto 15px;
+            }
+        }
+    }
 </style>
-<section class="two-cols">
-	<div>
-		<img src="images/vis-104-elephant-grass.jpg" width="300" />
-		<img src="images/Pennisetum_purpureum_F.jpg" width="300"/>
-	</div>
-	<div>
+ 
+<!-- <div>
+    <img src="images/vis-104-elephant-grass.jpg" width="300" />
+    <img src="images/Pennisetum_purpureum_F.jpg" width="300"/>
+</div>
+<div> 
+</div>
+<div>
+</div> -->
 
-* Originates from sub-Saharan Africa 
+
+
+<ul class="grass-fact">
+<li data-marpit-fragment="1"> 
+
+![w:300](images/Pennisetum_purpureum_F.jpg)
+<p> Originates from sub-Saharan Africa </p>
+
 <!-- 108 cheeseburgers -->
-* Grows to a height of 4-7 meters
-	</div>
-	<div>
-	</div>
-</section>
+
+</li> 
+<li data-marpit-fragment="2"> 
+
+![w:300](images/vis-104-elephant-grass.jpg)
+<p>Grows to a height of 4-7 meters </p>
+</li>
+
+</ul>
+
 
 <!-- transition: none -->
 
@@ -478,23 +555,30 @@ Maize is responsible for one-third of all the calories consumed in sub-Saharan A
 	.elephants-eat {
 		font-size: 34px;
 	}
+    .col-info {
+        width: 100%;
+    }
+    .col-info ul {
+        text-align: center;
+        list-style-type: none;
+    }
+    .two-cols {
+        height: 100%;
+    }
 </style>
-
-<section class="two-cols">
-<div>
-
-![w:300](images/VibersBiopolymers-Jan-Govert-van-Gilst-800x566.jpg)
-![w:300](images/elephant_grass_dried.jpg)
-
-</div>
-<div>
 
 <p class="elephants-eat"> Things you can do with it </p>
 <p class="elephants-eat"> other than let elephants eat it: </p>
 
-* Make paper 
-</div>
-</section>
+<ul class="grass-fact">
+<li>
+
+![w:230](images/VibersBiopolymers-Jan-Govert-van-Gilst-800x566.jpg)
+![w:230](images/elephant_grass_dried.jpg)
+
+<p>Make paper</p>
+</li>
+</ul>
 
 <!-- transition: none-->
 
@@ -509,24 +593,34 @@ Maize is responsible for one-third of all the calories consumed in sub-Saharan A
 
 # 4. Elephant grass
 <!-- footer: "One third of all sub-Saharan calories thing: [here](https://www.tandfonline.com/doi/full/10.1080/87559129.2019.1588290). More about push-pull with elephant grass and Desmodium: [here](https://www.fhcanada.org/blog/how-does-push-pull-pest-management-work)." -->
-<section class="two-cols">
-<div>
 
 <!-- You plant the desmodium in rows alternating with the corn; the insects get repelled by the smell and jump into the elephant grass you've planted around the perimeter; they lay their eggs in it, and they don't hatch because the grass is hairy so they fall off
 
 Checkmate bugs-->
 
-![w:300](images/desmodium.jpg)
+<ul class="grass-fact">
 
-</div>
+<li data-marpit-fragment="1">
+
+![w:230](images/stemborer.jpg)
 <div>
-<p class="elephants-eat"> Things you can do with it </p>
-<p class="elephants-eat"> other than let elephants eat it: </p>
-
-* Important contributor to push-pull pest control (stops stemborers from eating maize)
-   * Maize accounts for ~one third of all consumed calories in sub-Saharan Africa
+<style scoped>
+    li p {
+        font-size: 24px;
+    }
+</style>
+<p>Maize accounts for ~30% of all consumed calories in sub-Saharan Africa </p>
+<p>Stemborers eat ~10% of it annually</p>
 </div>
-</section>
+</li>
+<li data-marpit-fragment="2"> 
+
+![w:230](images/desmodium.jpg)
+
+<p> Desmondium can be used in conjunction with elephant grass as <b>push-pull pest control</b> </p>
+</li>
+
+</ul>
 
 <!-- transition: cube -->
 
@@ -723,64 +817,6 @@ M 708,472
 
 ![](images/magic-dots-allied-enemy.webp)
 </div>
-</section>
-
----
-
-<style scoped>
-    section::after {
-        font-size: 0%;
-        background-image: url("./images/progress-icons/progress-icon-5.svg")
-    }
-</style>
-# <span class="number">5. </span> The golden ratio
-
-<div>
-
-Conversion ratio of miles to kilometers = 1.60934
-That's only 0.05% different! 
-
-</div>
-</section>
-
-
----
-
-<style scoped>
-    section::after {
-        font-size: 0%;
-        background-image: url("./images/progress-icons/progress-icon-5.svg")
-    }
-</style>
-
-<style>
-	.distance {
-		font-size: 30px;
-	}
-	.number-more {
-		color: blue;
-	}
-</style>
-
-
-# <span class="number">5. </span> The golden ratio
-
-<section class="two-cols">
-
-![w:600](images/Golden-ratio-bike-directions.webp)
-
-<div>
-
-<span class="distance">Distance to bike from Bird House to Hop Haus in Verona:</span>
-
-~7 miles 
-= <span class="number">5</span> miles + <span class="number">2</span> miles
-≈  <span class="number-more">8</span> km + <span class="number-more">3</span> km
-= 11 km.
-
-<span class="distance">(Real answer is 11.104km, error of 0.9%!)</span>
-</div>
-
 </section>
 
 <!-- transition: cube -->
@@ -1125,7 +1161,7 @@ That's only 0.05% different!
 
 <p> zeugma nutz lol </p>
 
-<!-- transition: none -->
+<!-- transition: fade -->
 ---
 
 
