@@ -235,7 +235,7 @@ Eat glass.
     .timeline-item {
         padding-left: 40px;
         position: relative;
-		padding-bottom: 40px;
+		padding-bottom: 30px;
         &:last-child {
             padding-bottom: 0;
         }
@@ -244,10 +244,11 @@ Eat glass.
     /*----- TIMELINE INFO -----*/
 
     .timeline-info {
-        font-size: 24px;
+        font-size: 30px;
         font-weight: 600;
         letter-spacing: 3px;
         white-space: nowrap;
+        margin-bottom: 5px;
     }
     /*----- TIMELINE MARKER -----*/
 
@@ -390,8 +391,7 @@ Eat glass.
 			<span>Germany, 1700s CE</span>
 		</div>
 			<div class="timeline-content">
-                <p> <i>Kinderfeste</i>, root of the modern birthday party </p>
-                <p> This is when we start putting N candles on the cake </p> <!-- during an era when the individual person was seen as important and when childhood was “discovered” as a special stage of life (roots of modern birthday party) -->
+                <p> <i>Kinderfeste</i>, root of the modern birthday party (This is when we start putting N candles on the cake) </p> <!-- during an era when the individual person was seen as important and when childhood was “discovered” as a special stage of life (roots of modern birthday party) -->
             </div>
 		</div>
 	</li>
