@@ -1174,6 +1174,9 @@ M 708,472
 <!-- transition: fade -->
 ---
 
+<!-- footer: "" -->
+<!-- class: fibonacci -->
+<!-- paginate: true -->
 
 <style scoped>
     section::after {
@@ -1181,8 +1184,7 @@ M 708,472
         background-image: url("./images/progress-icons/progress-icon-8.svg")
     }
 </style>
-<!-- footer: "" -->
-<!-- class: fibonacci -->
+
 # <span class="number"> 8. </span> <a name="zeugma"> </a> Zeugma
 
 <style>
