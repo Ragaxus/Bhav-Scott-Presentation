@@ -363,10 +363,10 @@ Eat glass.
 		<div class="timeline-marker"></div>
         <div data-marpit-fragment="2">
             <div class="timeline-info">
-                <span>Ancient Greece</span>
+                <span>Rome, 100s CE</span>
             </div>
             <div class="timeline-content" >
-                <p>Birthdays for men (and candles on cakes)</p>
+                <p>Birthdays for non-royalty (and candles on cakes)</p>
             </div>
         </div>
 	</li>
@@ -375,7 +375,7 @@ Eat glass.
 		<div class="timeline-marker"></div>
 		<div data-marpit-fragment="3">
             <div class="timeline-info">
-                <span>14th century</span>
+                <span>Europe, 1300s CE</span>
             </div>
 			<div class="timeline-content">
                 <p>Every infant was given the name of a saint as a protector. People celebrated their saint’s day, not their own birthday. </p>
@@ -390,13 +390,23 @@ Eat glass.
 			<span>Germany, 1700s CE</span>
 		</div>
 			<div class="timeline-content">
-                <p>
-
-* *Kinderfeste* , root of the modern birthday party 
-* This is when we start putting N candles on the cake <!-- during an era when the individual person was seen as important and when childhood was “discovered” as a special stage of life (roots of modern birthday party) --> </p>
+                <p> <i>Kinderfeste</i>, root of the modern birthday party </p>
+                <p> This is when we start putting N candles on the cake </p> <!-- during an era when the individual person was seen as important and when childhood was “discovered” as a special stage of life (roots of modern birthday party) -->
             </div>
 		</div>
 	</li>
+    <li class="timeline-item">
+    <div class="timeline-marker">
+    </div>
+    <div data-marpit-fragment="5">
+        <div class="timeline-info">
+            Kentucky, 1893 CE
+        </div>
+        <div class="timeline-content">
+            Patty and Mildred Hill compose <i>Happy Birthday To You</i>, which will become the most recognized song in English
+        </div>
+    </div>
+    </li>
 </ul>
 
 <!-- transition: cube -->
@@ -1220,6 +1230,8 @@ M 708,472
 
 </div>
 </div>
+
+<!-- The notion that this is a cute way to inject wit into a sentence is the conclusion of this topic, as well as this presentation. -->
 
 <!-- transition: fade -->
 
